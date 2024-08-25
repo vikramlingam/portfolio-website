@@ -1,0 +1,32 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#myCanvas {
+  background-color: transparent;
+}
+
+#tags {
+  display: none; /* This hides the tags div but its contents are used by TagCanvas */
+}
+
+/* src/pages/About.css */
+
+.orange-word {
+  color: #FFA500 !important; /* Ensure this overrides any other styling */
+}
+
+#myCanvas {
+  display: block;
+  margin: 0 auto;
+}
+
+.about-container {
+  position: relative;
+  z-index: 2;
+}
+

@@ -1,0 +1,54 @@
+/* src/pages/Home.css */
+
+body {
+  font-family: 'Garamond', 'Georgia', serif; /* Set Garamond as the primary font */
+  color: #333; /* Default text color */
+  margin: 0;
+  padding: 0;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  /* Align text to the left */
+  justify-content: center;  /* Center content vertically */
+  height: 100vh;  /* Full viewport height */
+  text-align: left;  /* Left-align the text */
+  padding: 20px;
+  margin: 0 auto;  /* Center the container horizontally */
+  max-width: 800px;  /* Maximum width of the content area */
+  transform: translateY(-40px); /* Move the text up by 10px */
+}
+
+.home-container h1, .home-container h2, .home-container p {
+  font-size: 1.2em;
+  line-height: 1.7; /* Slightly increased line height for better readability */
+  display: inline-block;
+  transition: transform 0.3s ease; /* Smooth transition for the rubberband effect */
+  font-weight: ;
+}
+
+.home-container h1:hover, .home-container h2:hover, .home-container p:hover {
+  transform: scale(1.1); /* Slightly increase the size of the text on hover */
+}
+
+.home-container h1 {
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+}
+
+.home-container h2 {
+  font-size: 1.5em;
+  color: #666;
+  margin-bottom: 1em;
+}
+
+.home-container p {
+  font-size: 1.1em;
+  line-height: 1.8; /* Ensure the line height is consistent with other text */
+  margin-bottom: 0.8em; /* Add some space between paragraphs */
+}
+
+.home-container p:last-child {
+  margin-bottom: 0; /* Remove the margin from the last paragraph */
+}

@@ -1,0 +1,28 @@
+/* src/index.css */
+
+body.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+
+body.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Optional: Style the toggle button */
+button {
+  background-color: transparent;
+  border: 1px solid;
+  color: inherit;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 10px;
+  font-size: 16px;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+button:hover {
+  color: #007bff;
+  border-color: #007bff;
+}
